@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet Generator</title>
+</head>
+
+<body>
+    <h2>Enter Marks for Courses</h2>
+    <form id="markForm">
+        <div>
+            <label for="course1">Introduction to Web Design (CS1300):</label>
+            <input type="number" id="course1" name="cs1300" min="0" max="100">
+        </div>
+        <!-- Add more course entries similarly -->
+        <button type="button" onclick="generateMarksheet()">Generate Marksheet</button>
+    </form>
+
+    <h2>Mark Sheet</h2>
+    <pre id="markSheet"></pre>
+
+    <script src="scripto.js"></script>
+</body>
+
+</html>

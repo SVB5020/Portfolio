@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: cursive;">Resume</title>
+    
+    <style>
+        body {
+            font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #b3aac4; 
+        }
+
+        .resume {
+            display: flex;
+            justify-content: space-between;
+            background-color: #8188a5; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        .left-column, .center-column, .right-column {
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #4f9871; 
+            border-radius: 5px; 
+        }
+        .left-column:hover,
+.center-column:hover,
+.right-column:hover {
+    transform: scale(1.15); 
+}
+       
+        @media (max-width: 768px) {
+            .resume {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-column, .center-column, .right-column {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        
+        #header {
+            text-align: center;
+            font-size: 24px;
+            color: #333; 
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        nav {
+    background-color: #023E8A;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 0;
+    position: sticky;
+    z-index: 100;
+           }
+
+
+       
+        a {
+            color: #340308; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: purple;
+            
+        }
+
+    </style>
+    <h1 style="text-align: center;">RESUME</h1>
+</head>
+<nav>SUVIKSHA</nav>
+<body>
+    <div class="resume">
+        <div class="left-column">
+            <h3>Details</h3>
+            <p>Name: Suviksha V B</p>
+            <p>Date of Birth: 30 March 2005 </p>
+            <p>Email: suvikshavb@gmail.com</p>
+            <p>Phone: +91 8861907700</p>
+            <p>Address: B1212, B Block, Brigade Panorama, Kumbalagudu, Kambipura, Mysore Road<br>Bangalore-560060</p>
+            <br>
+            <h3>Skills</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Project Management</li>
+                <li>Team Leadership</li>
+            </ul>
+        </div>
+        <div class="center-column">
+            <h3>Education</h3>
+            <p>Bachelor's in Computer Science - RV University</p>
+            <p>Year of Graduation: 2027</p>
+            <h3>Projects</h3>
+            <ul>
+                <li><a href="INKINSIGHTS.html">Ink Insights</a></li>
+                <li><a href="Pedagogy.html">Pedagogy</a></li>
+                
+            </ul>
+        </div>
+        <div class="right-column">
+            <h3>Experience</h3>
+            <p>Senior Web Developer - Company</p>
+            <p>Year: 2028 - Present</p>
+            <ul>
+                <li>Managed a team of developers during a makethon</li>
+                <li>Developed and maintained company websites to help future interns navigate their way </li>
+            </ul>
+            <h3>Certifications</h3>
+            <p>Certified Web Developer - WEBO Organization</p>
+            <p>Year: 2029</p>
+            <h3>Languages</h3>
+            <p>English (Fluent)</p>
+            <p>Kannada (Intermediate)</p>
+            <p>Hindi (Intermediate)</p>
+        </div>
+    </div>
+</body>
+
+</html>

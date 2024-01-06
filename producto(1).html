@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav {
+  background-color: #4f6adf;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  color:red;
+}
+
+h1{
+  background-color: #94b2ea;
+  color: rgb(53, 27, 148);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.foot {
+  background-color: rgb(134, 129, 231);
+  color: white;
+  text-align: center;
+}
+
+.shopping-cart {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    align-content: center;
+}
+
+.shopping-cart {
+    background-color: #899ec6;
+}
+
+td:nth-child(3) {
+  width: 40%;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Welcome to ACER India</h1>
+
+<ul class="nav">
+  <li><a href="homeo(1).html">Home</a></li>
+  <li><a href="producto(1).html">Products</a></li>
+  <li><a href="contacto(1).html">Contact Us</a></li>
+</ul>
+
+<h2>ACER Laptop Product Showcase</h2>
+
+<table border="1">
+  <!-- ... (previous rows) ... -->
+
+  <!-- ACER Laptop 2 -->
+  <tr>
+    <td>
+      <img src="image4.jpeg" alt="ACER Laptop Model ABC2">
+      <h3>ACER Nitro 5 AN515-54-5812</h3>
+      <p class="price">$699.99</p>
+      <button onclick="addToCart4()">Add to Cart</button>
+    </td>
+    
+    <td>
+      <ul>
+        <li>Processor: Intel Core i5-9300H</li>
+        <li>Display: 15.6" Full HD IPS Display</li>
+        <li>Memory: 8GB DDR4 Memory</li>
+        <li>Storage: 256GB NVMe SSD</li>
+        <li>Operating System: Windows 10 Home</li>
+        <li>Battery Life: Up to 8 Hours</li>
+        <li>Graphics: NVIDIA GeForce GTX 1650</li>
+        <li>Wireless: Wi-Fi 6, Bluetooth 5.0</li>
+        <li>Ports: USB Type-C, HDMI, USB 3.1, and more</li>
+      </ul>
+    </td>
+    <td>The ACER Nitro 5 is a gaming laptop designed for performance. With its Intel Core i5 processor and NVIDIA GeForce GTX 1650 graphics, it delivers smooth gaming and multitasking experiences. The 15.6" Full HD IPS display offers vibrant visuals, making it a great choice for gamers.</td>
+  </tr>
+
+  <!-- ACER Laptop 3 -->
+  <tr>
+    <td>
+      <img src="image5.jpeg" alt="ACER Laptop Model ABC3">
+      <h3>ACER Swift 3 SF314-42-R9YN</h3>
+      <p class="price">$599.99</p>
+      <button onclick="addToCart5()">Add to Cart</button>
+    </td>
+    
+    <td>
+      <ul>
+        <li>Processor: AMD Ryzen 7 4700U Octa-Core</li>
+        <li>Display: 14" Full HD IPS Display</li>
+        <li>Memory: 8GB LPDDR4 Memory</li>
+        <li>Storage: 512GB NVMe SSD</li>
+        <li>Operating System: Windows 10 Home</li>
+        <li>Battery Life: Up to 11.5 Hours</li>
+        <li>Graphics: AMD Radeon Graphics</li>
+        <li>Wireless: Wi-Fi 6, Bluetooth 5.0</li>
+        <li>Ports: USB Type-C, USB 3.2, HDMI, and more</li>
+      </ul>
+    </td>
+    <td>The ACER Swift 3 is an ultra-thin and lightweight laptop ideal for professionals and students. It's powered by an AMD Ryzen 7 processor and offers a speedy 512GB SSD for fast performance. With a sleek design and long battery life, it's perfect for on-the-go use.</td>
+  </tr>
+
+  <!-- ACER Laptop 4 -->
+  <tr>
+    <td>
+      <img src="image6.jpeg" alt="ACER Laptop Model ABC4">
+      <h3>ACER Chromebook Spin 311</h3>
+      <p class="price">$349.99</p>
+      <button onclick="addToCart6()">Add to Cart</button>
+    </td>
+    
+    <td>
+      <ul>
+        <li>Processor: MediaTek MT8183C Octa-Core</li>
+        <li>Display: 11.6" HD Touch IPS Display</li>
+        <li>Memory: 4GB LPDDR4X Memory</li>
+        <li>Storage: 32GB eMMC</li>
+        <li>Operating System: Chrome OS</li>
+        <li>Battery Life: Up to 10 Hours</li>
+        <li>Graphics: Integrated ARM Mali-G72 MP3 Graphics</li>
+        <li>Wireless: Wi-Fi 5, Bluetooth 4.2</li>
+        <li>Ports: USB Type-C, USB 3.1, HDMI, and more</li>
+      </ul>
+    </td>
+    <td>The ACER Chromebook Spin 311 is a versatile 2-in-1 laptop with a 360-degree hinge, allowing for multiple usage modes. Powered by a MediaTek processor and equipped with Chrome OS, it offers a seamless and efficient computing experience, ideal for students and casual users.</td>
+  </tr>
+</table>
+
+<div class="shopping-cart">
+  <h2>Shopping Cart</h2>
+  <ul id="cart-items">
+      <!-- Cart items will be dynamically added here -->
+  </ul>
+  <p>Total Price: $<span id="total-price">0.00</span></p>
+</div>
+
+<script src="script (1).js"></script>
+
+</body>
+</html>
